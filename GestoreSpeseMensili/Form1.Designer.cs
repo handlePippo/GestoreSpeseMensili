@@ -1,4 +1,7 @@
-﻿namespace GestoreSpeseMensili
+﻿using GestoreSpeseMensili.Utils;
+using GestoreSpeseMensili.Utils.Enum;
+
+namespace GestoreSpeseMensili
 {
     partial class Form1
     {
@@ -53,6 +56,7 @@
             this.MainBox.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
+
             // 
             // menuStrip1
             // 
@@ -72,11 +76,13 @@
             // 
             // ComboChooseCategory
             // 
+            this.ComboChooseCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboChooseCategory.FormattingEnabled = true;
             this.ComboChooseCategory.Items.AddRange(new object[] {
-            "Obbligatorie",
+            "Select a category..",
+            "Mandatory",
             "Extra",
-            "Risparmio"});
+            "Saving"});
             this.ComboChooseCategory.Location = new System.Drawing.Point(12, 27);
             this.ComboChooseCategory.Name = "ComboChooseCategory";
             this.ComboChooseCategory.Size = new System.Drawing.Size(454, 21);
@@ -193,6 +199,7 @@
             // AddShopBtn
             // 
             this.AddShopBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.AddShopBtn.Enabled = false;
             this.AddShopBtn.Location = new System.Drawing.Point(6, 525);
             this.AddShopBtn.Name = "AddShopBtn";
             this.AddShopBtn.Size = new System.Drawing.Size(246, 35);
@@ -209,6 +216,7 @@
             this.SpeseListBox.Name = "SpeseListBox";
             this.SpeseListBox.Size = new System.Drawing.Size(246, 498);
             this.SpeseListBox.TabIndex = 0;
+            this.SpeseListBox.SelectedIndexChanged += new System.EventHandler(this.SpeseListBox_SelectedIndexChanged);
             // 
             // contextMenuStrip1
             // 
@@ -254,26 +262,26 @@
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ComboBox ComboChooseCategory;
-        private System.Windows.Forms.Button AddCategoryBtn;
-        private System.Windows.Forms.GroupBox MainBox;
-        private System.Windows.Forms.ListBox SpeseListBox;
-        private System.Windows.Forms.Button AddShopBtn;
-        private System.Windows.Forms.TextBox ShopDetailTextBox;
-        private System.Windows.Forms.Label ShopDetailLabel;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem eliminaSpesaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem duplicaSpesaToolStripMenuItem;
-        private System.Windows.Forms.Label ExpirationDateLabel;
-        private System.Windows.Forms.Label CreationDateLabel;
-        private System.Windows.Forms.DateTimePicker ExpirationDTPicker;
-        private System.Windows.Forms.DateTimePicker CreationDTPicker;
-        private System.Windows.Forms.Button EditSaveShopBtn;
-        private System.Windows.Forms.TextBox AmountTextBox;
-        private System.Windows.Forms.Label ShopAmountLabel;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        internal System.Windows.Forms.MenuStrip menuStrip1;
+        internal System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        internal System.Windows.Forms.ComboBox ComboChooseCategory;
+        internal System.Windows.Forms.Button AddCategoryBtn;
+        internal System.Windows.Forms.GroupBox MainBox;
+        internal System.Windows.Forms.ListBox SpeseListBox;
+        internal System.Windows.Forms.Button AddShopBtn;
+        internal System.Windows.Forms.TextBox ShopDetailTextBox;
+        internal System.Windows.Forms.Label ShopDetailLabel;
+        internal System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        internal System.Windows.Forms.ToolStripMenuItem eliminaSpesaToolStripMenuItem;
+        internal System.Windows.Forms.ToolStripMenuItem duplicaSpesaToolStripMenuItem;
+        internal System.Windows.Forms.Label ExpirationDateLabel;
+        internal System.Windows.Forms.Label CreationDateLabel;
+        internal System.Windows.Forms.DateTimePicker ExpirationDTPicker;
+        internal System.Windows.Forms.DateTimePicker CreationDTPicker;
+        internal System.Windows.Forms.Button EditSaveShopBtn;
+        internal System.Windows.Forms.TextBox AmountTextBox;
+        internal System.Windows.Forms.Label ShopAmountLabel;
+        internal System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

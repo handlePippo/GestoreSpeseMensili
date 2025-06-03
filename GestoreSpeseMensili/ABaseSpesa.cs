@@ -8,23 +8,23 @@ namespace GestoreSpeseMensili
     /// </summary>
     internal abstract class ABaseSpesa
     {
-        public string Nome { get; set; }
-        public CategoriaBaseSpesa Categoria { get; set; }
-        public double Ammontare { get; set; }
-        public DateTime DataCreazione { get; }
+        public string Name { get; set; }
+        public ExpenseCategory Category { get; set; }
+        public double Amount { get; set; }
+        public DateTime CreatedAt { get; }
 
         /// <summary>
         /// Constructor
         /// </summary>
-        /// <param name="nome"></param>
-        /// <param name="categoria"></param>
-        /// <param name="ammontare"></param>
-        protected ABaseSpesa(string nome, CategoriaBaseSpesa categoria, double ammontare)
+        /// <param name="name"></param>
+        /// <param name="category"></param>
+        /// <param name="amount"></param>
+        protected ABaseSpesa(string name, ExpenseCategory category, double amount)
         {
-            DataCreazione = DateTime.Now;
-            Nome = nome;
-            Categoria = categoria;
-            Ammontare = ammontare;
+            CreatedAt = DateTime.Now;
+            Name = name;
+            Category = category;
+            Amount = amount;
         }
     }
 }

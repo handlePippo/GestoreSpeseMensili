@@ -13,8 +13,14 @@ namespace GestoreSpeseMensili
             InitializeComponent();
         }
 
+        private bool removePlaceholder = true;
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.ResetControls(false);
+            this.ComboChooseCategory.SelectedIndexChanged -= ComboChooseCategory_SelectedIndexChanged;
+            this.ComboChooseCategory.SelectedIndex = 0;
+            this.ComboChooseCategory.SelectedIndexChanged += ComboChooseCategory_SelectedIndexChanged;
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -36,11 +42,20 @@ namespace GestoreSpeseMensili
 
         private void ComboChooseCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            SpeseListBox.Items.Clear();
+            this.IniatializeControls();
+            this.ResetControls(false);
+            if (removePlaceholder)
+            {
+                this.ComboChooseCategory.Items.RemoveAt(0);
+                removePlaceholder = false;
+                this.ComboChooseCategory.SelectedIndex = 0;
+                return;
+            }
+
             var item = ComboChooseCategory.SelectedItem.ToString();
             try
             {
-                var category = (CategoriaBaseSpesa)Enum.Parse(typeof(CategoriaBaseSpesa), item);
+                var category = (ExpenseCategory)Enum.Parse(typeof(ExpenseCategory), item);
                 InjectSpese(category);
             }
             catch (Exception ex)
@@ -51,14 +66,14 @@ namespace GestoreSpeseMensili
             }
         }
 
-        private void InjectSpese(CategoriaBaseSpesa category)
+        private void InjectSpese(ExpenseCategory category)
         {
             try
             {
-                var speseFiltered = Program.speseList.Where(s => s.Categoria == category);
+                var speseFiltered = Program.speseList.Where(s => s.Category == category);
                 if (speseFiltered.Any() == true)
                 {
-                    var speseName = speseFiltered.Select(s => s.Nome);
+                    var speseName = speseFiltered.Select(s => s.Name);
                     SpeseListBox.Items.AddRange(speseName.ToArray());
                 }
             }
@@ -73,7 +88,7 @@ namespace GestoreSpeseMensili
         {
             try
             {
-                if(e is EventArgsForActionType)
+                if (e is EventArgsForActionType)
                 {
                     SpeseListBox.Items.Add(e as EventArgsForActionType);
                 }
@@ -86,19 +101,9 @@ namespace GestoreSpeseMensili
             }
         }
 
-        public class Category
+        private void SpeseListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        public class EventArgsForActionType : EventArgs
-        {
-            public  string Name { get; set; }
-            public  int Count { get; set; }
-            public EventArgsForActionType()
-            {
-
-            }
+            this.ResetControls(true);
         }
     }
 }

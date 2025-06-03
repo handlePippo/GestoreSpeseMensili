@@ -6,15 +6,15 @@ namespace GestoreSpeseMensili
 {
     internal static class Program
     {
-        public static Spese speseList;
+        public static Expenses speseList;
 
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            speseList = new Spese();
-            speseList.BulkAdd(false, new Spesa("qweqweqw", 123, CategoriaBaseSpesa.Obbligatorie, Priorita.Alta));
+            speseList = new Expenses();
+            speseList.BulkAdd(false, new Expense("qweqweqw", 123, ExpenseCategory.Mandatory, Priority.High));
             Application.Run(new Form1());
         }
     }

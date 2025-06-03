@@ -8,3 +8,13 @@ C:\Users\filip\OneDrive\Desktop\GestioneSpeseMensili\GestoreSpeseMensili\Gestore
 C:\Users\filip\OneDrive\Desktop\GestioneSpeseMensili\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.exe
 C:\Users\filip\OneDrive\Desktop\GestioneSpeseMensili\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.pdb
 C:\Users\filip\OneDrive\Desktop\GestioneSpeseMensili\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.Form1.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.exe.config
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.exe
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.pdb
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.csproj.AssemblyReference.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.Form1.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.Properties.Resources.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.csproj.GenerateResource.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.exe
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.pdb

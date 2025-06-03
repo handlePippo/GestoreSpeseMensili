@@ -4,9 +4,9 @@ using GestoreSpeseMensili.Utils.Enum;
 
 namespace GestoreSpeseMensili
 {
-    internal class Spese : List<Spesa>
+    internal class Expenses : List<Expense>
     {
-        public Spesa this[string n]
+        public Expense this[string n]
         {
             get
             {
@@ -14,11 +14,11 @@ namespace GestoreSpeseMensili
             }
         }
 
-        public Spesa SearchByName(string s)
+        public Expense SearchByName(string s)
         {
-            foreach (Spesa spesa in this)
+            foreach (Expense spesa in this)
             {
-                if (spesa.Nome == s)
+                if (spesa.Name == s)
                 {
                     return spesa;
                 }
@@ -26,9 +26,9 @@ namespace GestoreSpeseMensili
             return null;
         }
 
-        public virtual new void Add(Spesa s) => base.Add(s);
+        public virtual new void Add(Expense s) => base.Add(s);
 
-        public void BulkAdd(bool baseProcuedure, params Spesa[] spese)
+        public void BulkAdd(bool baseProcuedure, params Expense[] spese)
         {
             if (baseProcuedure == true)
             {
@@ -53,9 +53,9 @@ namespace GestoreSpeseMensili
         [Obsolete]
         private void MockedSpeseGenerator()
         {
-            this.Add(new Spesa("Spesa sensuale di test 1", 1577, CategoriaBaseSpesa.Obbligatorie, Priorita.Media, "Descrizione sexy 1"));
-            this.Add(new Spesa("Spesa sensuale di test 2", 1130, CategoriaBaseSpesa.Obbligatorie, Priorita.Media, "Descrizione sexy 2"));
-            this.Add(new Spesa("Spesa sensuale di test 3", 1890, CategoriaBaseSpesa.Extra, Priorita.Media, "Descrizione sexy 3"));
+            this.Add(new Expense("Spesa sensuale di test 1", 1577, ExpenseCategory.Mandatory, Priority.Medium, "Descrizione sexy 1"));
+            this.Add(new Expense("Spesa sensuale di test 2", 1130, ExpenseCategory.Extra, Priority.Medium, "Descrizione sexy 2"));
+            this.Add(new Expense("Spesa sensuale di test 3", 1890, ExpenseCategory.Saving, Priority.Medium, "Descrizione sexy 3"));
         }
     }
 }
