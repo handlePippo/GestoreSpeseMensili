@@ -1,17 +1,20 @@
-﻿using GestoreSpeseMensili.Utils.Enum;
+﻿using MonthExpenseManager.Utils.Enum;
 using System;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
+
     /// <summary>
     /// ABaseSpesa
     /// </summary>
-    internal abstract class ABaseSpesa
+    internal abstract class ABaseExpense
     {
         public string Name { get; set; }
         public ExpenseCategory Category { get; set; }
         public double Amount { get; set; }
         public DateTime CreatedAt { get; }
+
+
 
         /// <summary>
         /// Constructor
@@ -19,12 +22,14 @@ namespace GestoreSpeseMensili
         /// <param name="name"></param>
         /// <param name="category"></param>
         /// <param name="amount"></param>
-        protected ABaseSpesa(string name, ExpenseCategory category, double amount)
+        protected ABaseExpense(string name, ExpenseCategory category, double amount)
         {
             CreatedAt = DateTime.Now;
             Name = name;
             Category = category;
             Amount = amount;
         }
+
+
     }
 }

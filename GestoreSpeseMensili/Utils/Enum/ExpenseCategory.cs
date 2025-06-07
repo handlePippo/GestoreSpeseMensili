@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace GestoreSpeseMensili.Utils.Enum
+namespace MonthExpenseManager.Utils.Enum
 {
     /// <summary>
     /// Expense category

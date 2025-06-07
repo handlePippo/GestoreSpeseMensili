@@ -1,4 +1,4 @@
-﻿namespace GestoreSpeseMensili.Utils
+﻿namespace MonthExpenseManager.Utils
 {
     /// <summary>
     /// GenericCostants

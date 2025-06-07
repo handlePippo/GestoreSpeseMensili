@@ -1,10 +1,10 @@
-﻿using GestoreSpeseMensili.Utils;
-using GestoreSpeseMensili.Utils.Enum;
+﻿using MonthExpenseManager.Utils;
+using MonthExpenseManager.Utils.Enum;
 using System;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
     public partial class Form1 : Form
     {
@@ -88,10 +88,11 @@ namespace GestoreSpeseMensili
         {
             try
             {
-                if (e is EventArgsForActionType)
-                {
-                    SpeseListBox.Items.Add(e as EventArgsForActionType);
-                }
+                new NewExpense().ShowDialog();
+                //if (e is EventArgsForActionType)
+                //{
+                //    SpeseListBox.Items.Add(e as EventArgsForActionType);
+                //}
             }
             catch (Exception ex)
             {

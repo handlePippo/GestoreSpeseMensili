@@ -1,8 +1,8 @@
-﻿using GestoreSpeseMensili;
+﻿using MonthExpenseManager;
 using System;
 using System.Windows.Forms;
 
-public static class Test
+public static class FormExtensions
 {
     public static void IniatializeControls<T>(this T source) where T : Form
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestoreSpeseMensili.Utils.Enum;
+using MonthExpenseManager.Utils.Enum;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
     internal class Expenses : List<Expense>
     {

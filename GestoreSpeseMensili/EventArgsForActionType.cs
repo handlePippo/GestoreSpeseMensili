@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
     public sealed class EventArgsForActionType : EventArgs
     {

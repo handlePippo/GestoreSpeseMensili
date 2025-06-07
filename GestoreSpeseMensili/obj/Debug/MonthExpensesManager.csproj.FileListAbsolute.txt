@@ -1,0 +1,14 @@
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExpensesManager.csproj.AssemblyReference.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExpenseManager.Form1.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExpenseManager.NewExpense.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.Properties.Resources.resources
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExpensesManager.csproj.GenerateResource.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExpensesManager.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.exe.config
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.exe
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\GestoreSpeseMensili.pdb
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.exe
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\GestoreSpeseMensili.pdb
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\FieldValidatorAPI.dll
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\bin\Debug\FieldValidatorAPI.pdb
+C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\GestoreSpeseMensili\obj\Debug\MonthExp.A5F5AAC7.Up2Date

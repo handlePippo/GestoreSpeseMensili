@@ -1,4 +1,4 @@
-﻿namespace GestoreSpeseMensili.Utils.Enum
+﻿namespace MonthExpenseManager.Utils.Enum
 {
     internal enum Priority
     {

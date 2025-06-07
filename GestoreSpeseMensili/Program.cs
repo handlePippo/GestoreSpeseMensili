@@ -1,8 +1,8 @@
-﻿using GestoreSpeseMensili.Utils.Enum;
+﻿using MonthExpenseManager.Utils.Enum;
 using System;
 using System.Windows.Forms;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
     internal static class Program
     {

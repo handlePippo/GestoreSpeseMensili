@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GestoreSpeseMensili.Properties
+namespace MonthExpenseManager.Properties
 {
 
 

@@ -1,9 +1,9 @@
-﻿using GestoreSpeseMensili.Utils.Enum;
+﻿using MonthExpenseManager.Utils.Enum;
 using System;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
-    internal class Expense : ABaseSpesa, IComparable<Expense>
+    internal class Expense : ABaseExpense, IComparable<Expense>
     {
         public string Description { get; set; }
         public Priority Priority { get; set; }

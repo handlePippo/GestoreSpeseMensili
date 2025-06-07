@@ -1,7 +1,7 @@
-﻿using GestoreSpeseMensili.Utils;
-using GestoreSpeseMensili.Utils.Enum;
+﻿using MonthExpenseManager.Utils;
+using MonthExpenseManager.Utils.Enum;
 
-namespace GestoreSpeseMensili
+namespace MonthExpenseManager
 {
     partial class Form1
     {
