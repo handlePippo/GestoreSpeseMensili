@@ -48,34 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ABaseExpense.cs" />
-    <Compile Include="EventArgsForActionType.cs" />
-    <Compile Include="Extensions\FormExtensions.cs" />
-    <Compile Include="Forms\NewExpenseForm\NewExpense.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\NewExpenseForm\NewExpense.Designer.cs">
-      <DependentUpon>NewExpense.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Utils\Enum\ExpenseCategory.cs" />
-    <Compile Include="Categories.cs" />
-    <Compile Include="Forms\FormBase\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormBase\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Utils\Enum\Priority.cs" />
-    <Compile Include="Utils\GenericCostants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Expense.cs" />
-    <EmbeddedResource Include="Forms\FormBase\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewExpenseForm\NewExpense.resx">
-      <DependentUpon>NewExpense.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -97,12 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FieldValidatorAPI\FieldValidatorAPI.csproj">
-      <Project>{4601ffc1-2ba7-4376-840d-da497ec7c60a}</Project>
-      <Name>FieldValidatorAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

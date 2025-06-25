@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A613EE56-E99D-428C-865D-20CBE2633876}|GestoreSpeseMensili\\MonthExpensesManager.csproj|c:\\users\\filip\\onedrive\\desktop\\gestorespesemensili\\gestorespesemensili\\forms\\newexpenseform\\newexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A613EE56-E99D-428C-865D-20CBE2633876}|GestoreSpeseMensili\\MonthExpensesManager.csproj|solutionrelative:gestorespesemensili\\forms\\newexpenseform\\newexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4601FFC1-2BA7-4376-840D-DA497EC7C60A}|FieldValidatorAPI\\FieldValidatorAPI.csproj|c:\\users\\filip\\onedrive\\desktop\\gestorespesemensili\\fieldvalidatorapi\\validators\\commonfieldvalidatorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4601FFC1-2BA7-4376-840D-DA497EC7C60A}|FieldValidatorAPI\\FieldValidatorAPI.csproj|solutionrelative:fieldvalidatorapi\\validators\\commonfieldvalidatorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A613EE56-E99D-428C-865D-20CBE2633876}|GestoreSpeseMensili\\MonthExpensesManager.csproj|c:\\users\\filip\\onedrive\\desktop\\gestorespesemensili\\gestorespesemensili\\forms\\newexpenseform\\newexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A613EE56-E99D-428C-865D-20CBE2633876}|GestoreSpeseMensili\\MonthExpensesManager.csproj|solutionrelative:gestorespesemensili\\forms\\newexpenseform\\newexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1348BD92-B29D-7DDE-F8E4-6CE70BBAB4BF}|MyNewWinFormsApp\\MonthExpenseGenerator.csproj|c:\\users\\filip\\onedrive\\desktop\\gestorespesemensili\\mynewwinformsapp\\extensions\\formextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1348BD92-B29D-7DDE-F8E4-6CE70BBAB4BF}|MyNewWinFormsApp\\MonthExpenseGenerator.csproj|solutionrelative:mynewwinformsapp\\extensions\\formextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 331,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewExpense.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "RelativeDocumentMoniker": "GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs [Design]",
-              "RelativeToolTip": "GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:49:26.095Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NewExpense.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "RelativeDocumentMoniker": "GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "RelativeToolTip": "GestoreSpeseMensili\\Forms\\NewExpenseForm\\NewExpense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Title": "FormExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\MyNewWinFormsApp\\Extensions\\FormExtensions.cs",
+              "RelativeDocumentMoniker": "MyNewWinFormsApp\\Extensions\\FormExtensions.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\MyNewWinFormsApp\\Extensions\\FormExtensions.cs",
+              "RelativeToolTip": "MyNewWinFormsApp\\Extensions\\FormExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:49:21.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommonFieldValidatorFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\FieldValidatorAPI\\Validators\\CommonFieldValidatorFunctions.cs",
-              "RelativeDocumentMoniker": "FieldValidatorAPI\\Validators\\CommonFieldValidatorFunctions.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\GestoreSpeseMensili\\FieldValidatorAPI\\Validators\\CommonFieldValidatorFunctions.cs",
-              "RelativeToolTip": "FieldValidatorAPI\\Validators\\CommonFieldValidatorFunctions.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:47:49.822Z",
+              "WhenOpened": "2025-06-25T22:17:06.328Z",
               "EditorCaption": ""
             }
           ]
