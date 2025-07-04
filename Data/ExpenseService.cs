@@ -1,4 +1,5 @@
 ﻿using Data.Models;
+using Data.Models.Dto;
 
 namespace Data
 {

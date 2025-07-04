@@ -13,8 +13,6 @@ namespace MyNewWinFormsApp
         public double Amount { get; set; }
         public DateTime CreatedAt { get; }
 
-
-
         /// <summary>
         /// Constructor
         /// </summary>
@@ -28,7 +26,5 @@ namespace MyNewWinFormsApp
             Category = category;
             Amount = amount;
         }
-
-
     }
 }

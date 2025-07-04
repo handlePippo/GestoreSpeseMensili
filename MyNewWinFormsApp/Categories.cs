@@ -1,6 +1,7 @@
-﻿using MyNewWinFormsApp.Utils.Enum;
+﻿using MyNewWinFormsApp;
+using MyNewWinFormsApp.Utils.Enum;
 
-namespace MyNewWinFormsApp
+namespace MonthExpenseGenerator
 {
     internal class Expenses : List<Expense>
     {
@@ -26,9 +27,9 @@ namespace MyNewWinFormsApp
 
         public virtual new void Add(Expense s) => base.Add(s);
 
-        public void BulkAdd(bool baseProcuedure, params Expense[] spese)
+        public void BulkAdd(bool baseProcedure, params Expense[] spese)
         {
-            if (baseProcuedure == true)
+            if (baseProcedure == true)
             {
                 MockedSpeseGenerator();
                 return;

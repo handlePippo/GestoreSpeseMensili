@@ -1,17 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Data.Models.Dto;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data.Models
 {
     public sealed class Expense
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; private set; }
-        public string Name { get; set; } = null!;
-        public string Description { get; set; } = null!;
-        public decimal Amount { get; set; }
-        public DateTime ExpenseCreation { get; set; }
-        public DateTime ExpenseExpiration { get; set; }
-        public MetadataDto Metadata { get; set; } = null!;
+        public int Id { get; set; }
+        public string Name { get; init; } = null!;
+        public string Description { get; init; } = null!;
+        public decimal Amount { get; init; }
+        public DateTime ExpenseCreation { get; init; }
+        public DateTime ExpenseExpiration { get; init; }
+        public MetadataDto Metadata { get; init; } = null!;
 
         public Expense()
         {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Data.Models
+namespace Data.Models.Dto
 {
     [Owned]
     public sealed record MetadataDto
     {
-        public DateTime CreatedAt => DateTime.Now;
+        public static DateTime CreatedAt => DateTime.UtcNow;
+        public static DateTime ModifiedAt => DateTime.UtcNow;
         public string CreatedBy { get; set; } = null!;
-        public DateTime ModifiedAt => DateTime.Now;
         public string ModifiedBy { get; set; } = null!;
     }
 }

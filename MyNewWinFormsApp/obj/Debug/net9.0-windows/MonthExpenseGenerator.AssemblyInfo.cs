@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonthExpenseGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+404838bdc91844d54a31e60fe81ccd686183d272")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e742eab5a25b116f269b159bc027c2c8b81a8cc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonthExpenseGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonthExpenseGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
