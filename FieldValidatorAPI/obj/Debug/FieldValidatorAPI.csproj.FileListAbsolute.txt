@@ -1,6 +1,0 @@
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\obj\Debug\FieldValidatorAPI.csproj.AssemblyReference.cache
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\obj\Debug\FieldValidatorAPI.csproj.CoreCompileInputs.cache
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\bin\Debug\FieldValidatorAPI.dll
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\bin\Debug\FieldValidatorAPI.pdb
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\obj\Debug\FieldValidatorAPI.dll
-C:\Users\filip\OneDrive\Desktop\GestoreSpeseMensili\FieldValidatorAPI\obj\Debug\FieldValidatorAPI.pdb
